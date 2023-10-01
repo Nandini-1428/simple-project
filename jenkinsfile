@@ -18,5 +18,10 @@ pipeline {
                 echo "deploying the application"
             }
         }
+        stage("sucess"){
+            steps {
+                echo "Applicatio succesfully deployed"
+            }
+        }
     }
 }
